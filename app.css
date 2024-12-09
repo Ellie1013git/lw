@@ -74,3 +74,28 @@ body {
     font-weight: bold;
   }
   
+  /* 달력 표 스타일 */
+  .calendar-container {
+     margin-top: 20px;
+  }
+
+  #calendarTable {
+     width: 100%;
+     border-collapse: collapse;
+  }
+
+  #calendarTable th,
+  #calendarTable td {
+     padding: 10px;
+     text-align: center;
+     border: 1px solid #ddd;
+     cursor: pointer;
+  }
+
+  #calendarTable th {
+     background-color: #f4f4f4;
+  }
+
+  #calendarTable td:hover {
+     background-color: #f0f0f0;
+  }
