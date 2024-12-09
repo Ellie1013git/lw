@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>식단 관리 앱</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>식단 관리</h1>
+    <div class="input-area">
+      <input type="text" id="foodName" placeholder="음식 이름">
+      <input type="number" id="calories" placeholder="칼로리 (kcal)">
+      <button id="addButton">추가</button>
+    </div>
+    <h2>식단 목록</h2>
+    <ul id="foodList"></ul>
+    <h3>총 칼로리: <span id="totalCalories">0</span> kcal</h3>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
